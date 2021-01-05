@@ -1,0 +1,75 @@
+body {
+    font-size: 12pt;
+    font-family: "Comic Sans MS", "LDFComicSans";
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    background-color: darkgrey;
+    line-height: 1.2em;
+    margin-left: 0px;
+    margin-right: 20px;
+    }
+h1 {
+    line-height: 1.2em;
+    font-size: 250%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.7em;
+    margin-bottom: 0.5em;
+   }
+h2 {
+    font-size: 150%;
+    color: maroon;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.1em;
+   }
+div.spiral {
+    background-image: url("images/spiral.png");
+    background-repeat: repeat-y;
+}
+div.page {
+    position: relative;
+    background-color: ivory;
+    margin-left: 70px;
+    padding: 1px 70px 50px 50px;
+    width: 900px;
+    box-shadow: 10px 10px 5px grey;
+}
+img.r {
+  width: 350px;
+  float: right;
+  margin: 0px 0px 20px 20px;
+  box-shadow: 10px 10px 5px #888888;
+  }
+img.rs {
+  width: 250px;
+  float: right;
+  margin: 0px 0px 20px 20px;
+  box-shadow: 10px 10px 5px #888888;
+  }
+img.rss {
+  width: 165px;
+  float: right;
+  margin: 0px 0px 20px 20px;
+  box-shadow: 10px 10px 5px #888888;
+  }
+img.lss {
+  width: 165px;
+  float: left;
+  margin: 0px 20px 20px 0px;
+  box-shadow: 10px 10px 5px #888888;
+  }
+table {
+    width 100%;
+}
+table, th, td {
+    border: 1px solid darkgrey;
+    border-collapse: collapse;
+    padding: 15px;
+}
+tr  {vertical-align: top
+}
+td.first {
+    width: 20%;
+}
