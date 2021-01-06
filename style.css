@@ -1,5 +1,5 @@
 body {
-    font-size: 12pt;
+    font-size: 14pt;
     font-family: "Comic Sans MS", 'Marker Felt', sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -60,16 +60,15 @@ img.lss {
   margin: 0px 20px 20px 0px;
   box-shadow: 10px 10px 5px #888888;
   }
-table {
-    width 100%;
-}
-table, th, td {
-    border: 1px solid darkgrey;
-    border-collapse: collapse;
-    padding: 15px;
-}
-tr  {vertical-align: top
-}
-td.first {
-    width: 20%;
-}
+a:link.arrow {
+  text-decoration: none;
+  color: red;
+  font-size: 16pt;
+  font-weight: bold;
+  }
+a:hover.arrow {
+  text-decoration: none;
+  color: red;
+  font-size: 16pt;
+  font-weight: bold;
+  }
