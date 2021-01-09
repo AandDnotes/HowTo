@@ -36,6 +36,10 @@ div.page {
     width: 900px;
     box-shadow: 10px 10px 5px grey;
 }
+img.rns {
+  width: 450px;
+  float: right;
+  }
 img.r {
   width: 350px;
   float: right;
