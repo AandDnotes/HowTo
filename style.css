@@ -22,7 +22,7 @@ h2 {
     color: maroon;
     font-weight: bold;
     margin-top: 1.5em;
-    margin-bottom: 1.1em;
+    margin-bottom: 0.5em;
    }
 div.spiral {
     background-image: url("images/spiral.png");
@@ -39,6 +39,17 @@ div.page {
 img.rns {
   width: 450px;
   float: right;
+  }
+img {
+  float: right;
+  margin: 10px 0px 10px 10px;
+  box-shadow: 10px 10px 5px #888888;
+  }
+img.w {
+  width: 900px;
+  float: right;
+  margin: 0px 0px 20px 20px;
+  box-shadow: 10px 10px 5px #888888;
   }
 img.r {
   width: 350px;
